@@ -44,7 +44,7 @@ public class AggregationDemo {
                 System.out.println(cursor.next());
             }
             
-            // aggregation function
+            // aggregation function...
             DBObject match = new BasicDBObject("$match",new BasicDBObject("type", "airfare"));
             
             DBObject fields = new BasicDBObject("dept", 1);
